@@ -1,0 +1,134 @@
+ 2024-11-20T13:08:32.185 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T13:08:47.430 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T13:08:47.433 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T13:08:47.434 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T13:17:26.772 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T13:17:27.897 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T13:17:27.899 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T13:17:27.900 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T13:17:29.963 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T13:17:30.624 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T13:17:30.626 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T13:17:30.626 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T13:18:00.399 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T13:18:01.139 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T13:18:01.141 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T13:18:01.143 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T13:18:36.004 [INFO] api ::1|anisara@gmail.com GET /api/users - INPUT | {} 
+ 2024-11-20T13:18:36.228 [INFO] api ::1|anisara@gmail.com GET /api/users - OUTPUT | [{"id":3,"firstName":"Noon","lastName":"Chandai","email":"noon@gmail.com","password":"1234","birthDate":"2002-07-12T00:00:00.000Z","createdAt":"2024-11-14T05:17:50.000Z","updatedAt":"2024-11-14T05:17:50.000Z"},{"id":5,"firstName":"anisara","lastName":"channn","email":"anisara@gmail.com","password":"1234","birthDate":"2000-01-01T00:00:00.000Z","createdAt":"2024-11-14T09:40:38.000Z","updatedAt":"2024-11-14T09:40:38.000Z"},{"id":12,"firstName":"anitsara","lastName":"chann","email":"ac@gmail.com","password":"123","birthDate":"2002-01-01T00:00:00.000Z","createdAt":"2024-11-15T08:49:04.000Z","updatedAt":"2024-11-15T09:12:12.000Z"},{"id":26,"firstName":"Anitsara","lastName":"Chandai","email":"anitsarachandai@gmail.com","password":"1234","birthDate":null,"createdAt":"2024-11-19T03:45:13.000Z","updatedAt":"2024-11-19T03:45:13.000Z"},{"id":28,"firstName":"Anitsara","lastName":"Chandai","email":"anitsara@gmail.com","password":"1234","birthDate":null,"createdAt":"2024-11-19T03:58:02.000Z","updatedAt":"2024-11-19T03:58:02.000Z"},{"id":30,"firstName":"Anitsara","lastName":"Chandai","email":"anis@gmail.com","password":"1234","birthDate":null,"createdAt":"2024-11-20T06:09:25.000Z","updatedAt":"2024-11-20T06:09:25.000Z"}] 
+ 2024-11-20T13:18:59.132 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T13:18:59.773 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T13:18:59.775 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T13:18:59.776 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T13:19:45.514 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T13:19:46.190 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T13:19:46.193 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T13:19:46.193 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T13:21:32.601 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T13:21:33.303 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T13:21:33.306 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T13:21:33.307 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T13:23:14.414 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T13:23:15.020 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T13:23:15.022 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T13:23:15.022 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T13:28:27.754 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T13:28:28.438 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T13:28:28.439 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T13:28:28.440 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T13:29:03.804 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T13:29:04.468 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T13:29:04.470 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T13:29:04.471 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T13:34:20.665 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T13:34:21.464 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T13:34:21.466 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T13:34:21.467 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T13:41:44.956 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T13:41:45.630 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T13:41:45.632 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T13:41:45.633 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T14:01:50.008 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T14:01:51.289 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T14:01:51.291 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T14:01:51.292 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T14:11:27.762 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T14:11:28.946 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T14:11:28.949 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T14:11:28.950 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T14:11:59.359 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T14:12:00.157 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T14:12:00.158 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T14:12:00.159 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T14:12:45.678 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T14:12:46.491 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T14:12:46.494 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T14:12:46.494 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T15:19:09.604 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T15:19:23.991 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T15:19:23.994 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T15:19:23.996 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T15:21:28.102 [INFO] api ::1|anisara@gmail.com GET /api/users - INPUT | {} 
+ 2024-11-20T15:21:28.303 [INFO] api ::1|anisara@gmail.com GET /api/users - OUTPUT | [{"id":3,"firstName":"Noon","lastName":"Chandai","email":"noon@gmail.com","password":"1234","birthDate":"2002-07-12T00:00:00.000Z","createdAt":"2024-11-14T05:17:50.000Z","updatedAt":"2024-11-14T05:17:50.000Z"},{"id":5,"firstName":"anisara","lastName":"channn","email":"anisara@gmail.com","password":"1234","birthDate":"2000-01-01T00:00:00.000Z","createdAt":"2024-11-14T09:40:38.000Z","updatedAt":"2024-11-14T09:40:38.000Z"},{"id":12,"firstName":"anitsara","lastName":"chann","email":"ac@gmail.com","password":"123","birthDate":"2002-01-01T00:00:00.000Z","createdAt":"2024-11-15T08:49:04.000Z","updatedAt":"2024-11-15T09:12:12.000Z"},{"id":26,"firstName":"Anitsara","lastName":"Chandai","email":"anitsarachandai@gmail.com","password":"1234","birthDate":null,"createdAt":"2024-11-19T03:45:13.000Z","updatedAt":"2024-11-19T03:45:13.000Z"},{"id":28,"firstName":"Anitsara","lastName":"Chandai","email":"anitsara@gmail.com","password":"1234","birthDate":null,"createdAt":"2024-11-19T03:58:02.000Z","updatedAt":"2024-11-19T03:58:02.000Z"},{"id":30,"firstName":"Anitsara","lastName":"Chandai","email":"anis@gmail.com","password":"1234","birthDate":null,"createdAt":"2024-11-20T06:09:25.000Z","updatedAt":"2024-11-20T06:09:25.000Z"},{"id":34,"firstName":"Anitsara","lastName":"Chandai","email":"anis1@gmail.com","password":"1234","birthDate":null,"createdAt":"2024-11-20T06:20:25.000Z","updatedAt":"2024-11-20T06:20:25.000Z"},{"id":36,"firstName":"Anitsara","lastName":"Chandai","email":"anis2@gmail.com","password":"1234","birthDate":null,"createdAt":"2024-11-20T06:21:49.000Z","updatedAt":"2024-11-20T06:21:49.000Z"},{"id":37,"firstName":"Anisara","lastName":"Chann","email":"anis3@gmail.com","password":"1234","birthDate":null,"createdAt":"2024-11-20T06:24:08.000Z","updatedAt":"2024-11-20T06:24:08.000Z"},{"id":38,"firstName":"Anisara","lastName":"Chandai","email":"anitschda@gmail.com","password":"1234","birthDate":null,"createdAt":"2024-11-20T06:28:39.000Z","updatedAt":"2024-11-20T06:28:39.000Z"},{"id":40,"firstName":"Anisara","lastName":"Chandai","email":"anitschda1@gmail.com","password":"1234","birthDate":null,"createdAt":"2024-11-20T06:30:00.000Z","updatedAt":"2024-11-20T06:30:00.000Z"},{"id":42,"firstName":"Anisara","lastName":"Chandai","email":"anitschdaaaa@gmail.com","password":"1234","birthDate":null,"createdAt":"2024-11-20T07:02:11.000Z","updatedAt":"2024-11-20T07:02:11.000Z"},{"id":44,"firstName":"Anisara","lastName":"Chandai","email":"anitschdaaaaaa@gmail.com","password":"1234","birthDate":null,"createdAt":"2024-11-20T07:11:47.000Z","updatedAt":"2024-11-20T07:11:47.000Z"},{"id":45,"firstName":"Anisara","lastName":"Chandai","email":"anitschda123@gmail.com","password":"1234","birthDate":null,"createdAt":"2024-11-20T07:12:18.000Z","updatedAt":"2024-11-20T07:12:18.000Z"},{"id":47,"firstName":"Anisara","lastName":"Chandai","email":"anitschda1234@gmail.com","password":"1234","birthDate":null,"createdAt":"2024-11-20T07:13:47.000Z","updatedAt":"2024-11-20T07:13:47.000Z"}] 
+ 2024-11-20T15:25:58.120 [INFO] api ::1|anisara@gmail.com GET /api/users - INPUT | {} 
+ 2024-11-20T15:25:58.318 [INFO] api ::1|anisara@gmail.com GET /api/users - OUTPUT | [{"id":3,"firstName":"Noon","lastName":"Chandai","email":"noon@gmail.com","password":"1234","birthDate":"2002-07-12T00:00:00.000Z","createdAt":"2024-11-14T05:17:50.000Z","updatedAt":"2024-11-14T05:17:50.000Z"},{"id":5,"firstName":"anisara","lastName":"channn","email":"anisara@gmail.com","password":"1234","birthDate":"2000-01-01T00:00:00.000Z","createdAt":"2024-11-14T09:40:38.000Z","updatedAt":"2024-11-14T09:40:38.000Z"},{"id":12,"firstName":"anitsara","lastName":"chann","email":"ac@gmail.com","password":"123","birthDate":"2002-01-01T00:00:00.000Z","createdAt":"2024-11-15T08:49:04.000Z","updatedAt":"2024-11-15T09:12:12.000Z"},{"id":26,"firstName":"Anitsara","lastName":"Chandai","email":"anitsarachandai@gmail.com","password":"1234","birthDate":null,"createdAt":"2024-11-19T03:45:13.000Z","updatedAt":"2024-11-19T03:45:13.000Z"},{"id":28,"firstName":"Anitsara","lastName":"Chandai","email":"anitsara@gmail.com","password":"1234","birthDate":null,"createdAt":"2024-11-19T03:58:02.000Z","updatedAt":"2024-11-19T03:58:02.000Z"},{"id":30,"firstName":"Anitsara","lastName":"Chandai","email":"anis@gmail.com","password":"1234","birthDate":null,"createdAt":"2024-11-20T06:09:25.000Z","updatedAt":"2024-11-20T06:09:25.000Z"},{"id":34,"firstName":"Anitsara","lastName":"Chandai","email":"anis1@gmail.com","password":"1234","birthDate":null,"createdAt":"2024-11-20T06:20:25.000Z","updatedAt":"2024-11-20T06:20:25.000Z"},{"id":36,"firstName":"Anitsara","lastName":"Chandai","email":"anis2@gmail.com","password":"1234","birthDate":null,"createdAt":"2024-11-20T06:21:49.000Z","updatedAt":"2024-11-20T06:21:49.000Z"},{"id":37,"firstName":"Anisara","lastName":"Chann","email":"anis3@gmail.com","password":"1234","birthDate":null,"createdAt":"2024-11-20T06:24:08.000Z","updatedAt":"2024-11-20T06:24:08.000Z"}] 
+ 2024-11-20T15:27:09.620 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T15:27:10.719 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T15:27:10.722 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T15:27:10.723 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T15:29:39.365 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T15:29:40.105 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T15:29:40.108 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T15:29:40.109 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T15:33:03.667 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T15:33:04.286 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T15:33:04.288 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T15:33:04.289 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T15:37:28.262 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T15:37:29.050 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T15:37:29.052 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T15:37:29.053 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T15:38:24.703 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T15:38:25.502 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T15:38:25.504 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T15:38:25.506 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T15:40:03.189 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T15:40:03.921 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T15:40:03.923 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T15:40:03.924 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T15:41:43.240 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T15:41:44.441 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T15:41:44.444 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T15:41:44.445 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T15:42:34.776 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T15:42:35.828 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T15:42:35.831 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T15:42:35.832 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T15:49:19.192 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T15:49:20.464 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T15:49:20.466 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T15:49:20.467 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T15:50:08.758 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T15:50:09.556 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T15:50:09.559 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T15:50:09.560 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T15:51:02.310 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T15:51:03.287 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T15:51:03.290 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T15:51:03.291 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T16:07:24.357 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T16:07:25.223 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T16:07:25.226 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T16:07:25.227 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T16:10:03.671 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T16:10:04.326 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T16:10:04.328 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T16:10:04.329 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T16:19:21.649 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T16:19:22.542 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T16:19:22.545 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T16:19:22.546 [INFO] default null|null null null - Install Error handering successfully. 
+ 2024-11-20T16:19:38.647 [INFO] default null|null null null - SENDGRID_API_KEY = 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 
+ 2024-11-20T16:19:39.337 [DEBUG] default null|null null null - Create Application Server. 
+ 2024-11-20T16:19:39.338 [INFO] default null|null null null - Install API route path successfully. 
+ 2024-11-20T16:19:39.339 [INFO] default null|null null null - Install Error handering successfully. 

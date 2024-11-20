@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "name": "Anitsara Chandai",
+        "age": "22",
+        "username": "anitsara"
+    },
+    {
+        "id": "2",
+        "name": "Chris A",
+        "age": "23",
+        "username": "Chris"
+    },
+    {
+        "id": "3",
+        "name": "Kevin B",
+        "age": "24",
+        "username": "Kevin"
+    },
+    {
+        "id": "4",
+        "name": "Billie E",
+        "age": "23",
+        "username": "Billie"
+    }
+]
