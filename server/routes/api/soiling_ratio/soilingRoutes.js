@@ -3,7 +3,11 @@ var router = express.Router();
 const mysql = require("mysql2");
 
 const conn = mysql.createConnection({
-    host: 'localhost', user: 'root', password: 'anitsara20020712', database: 'soiling_ratio', port : 3310
+    host: 'srv1121.hstgr.io', 
+    user: 'u922812831_dustUser', 
+    password: 'DustDetect@01', 
+    database: 'u922812831_DustData_CDTI',
+    
 }); //connect with database
 
 //GET
@@ -16,7 +20,7 @@ router.get('/', (req, res, next) => {
     limit = parseInt(limit);
     let offset = (page-1) * limit; //calculate data 20 data (limit data = 20)
 
-    let sql =limit > 0 ? `SELECT * FROM soilingdata WHERE ?  ORDER BY ${sort} ${order} LIMIT ?, ?`:`SELECT * FROM soilingdata WHERE ?  ORDER BY ${sort} ${order}`;
+    let sql =limit > 0 ? `SELECT * FROM SensorData WHERE ?  ORDER BY ${sort} ${order} LIMIT ?, ?`:`SELECT * FROM SensorData WHERE ?  ORDER BY ${sort} ${order}`;
     console.log(filter);
 
     conn.query(sql,[filter, offset, limit], (err, datas, fields) => { //query data in table soiling
@@ -32,7 +36,7 @@ router.get('/', (req, res, next) => {
 
 //GET BY ID
 router.get('/:id', (req, res, next) => {
-    conn.query('SELECT * FROM soilingdata WHERE id = ?', [req.params.id], (err, datas, fields) => { //query data in table soiling
+    conn.query('SELECT * FROM SensorData WHERE id = ?', [req.params.id], (err, datas, fields) => { //query data in table soiling
         if(datas.length > 0) {
             res.send(datas[0]); //send data to user(call)
         } else {
@@ -43,7 +47,7 @@ router.get('/:id', (req, res, next) => {
 
 //CREATE
 router.post("/", (req, res, next) => {
-    conn.query(" INSERT INTO soilingdata SET ?",req.body, (err, datas, feilds) => {
+    conn.query(" INSERT INTO SensorData SET ?",req.body, (err, datas, feilds) => {
         if(err) {
             const { code, sqlMessage } = err;
             res.status(400).send({error : {name : code, message : sqlMessage }});
