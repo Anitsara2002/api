@@ -1,0 +1,13 @@
+{
+    "success.signin" : "เข้าสู่ระบบสำเร็จ",
+    "success.inserted" : "เพิ่มข้อมูลสำเร็จ",
+    "success.updated" : "แก้ไขข้อมูลสำเร็จ",
+    "success.deleted" : "ลบข้อมูลสำเร็จ",
+    "ERR_DATA_NOT_FOUND" : "ไม่มีข้อมูล",
+    "email.signup.subject" : "{{firstName} {lastName}} - บัญชีของคุณเปิดใช้งานเรียบร้อย",
+    "users.firstName" : "ชื่อ",
+    "users.lastName" : "นามสกุล",
+    "users.email" : "อีเมล",
+    "users.password" : "รหัสผ่าน",
+    "users.birthDate" : "วันเกิด"
+}

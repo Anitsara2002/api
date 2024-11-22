@@ -1,0 +1,13 @@
+{
+    "success.signin" : "Sign In successfully.",
+    "success.inserted" : "Inserted successfully.",
+    "success.updated" : "Updated successfully.",
+    "success.deleted" : "Deleted successfully.",
+    "ERR_DATA_NOT_FOUND" : "Data not found.",
+    "email.signup.subject" : "{{firstName} {lastName}} - Your account has been activated successfully.",
+    "users.firstName" : "First Name",
+    "users.lastName" : "Last Name",
+    "users.email" : "Email",
+    "users.password" : "Password",
+    "users.birthDate" : "Birth Date"
+}

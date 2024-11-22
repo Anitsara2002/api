@@ -32,6 +32,11 @@ app.use((req, res, next) => {
   next();
 })
 
+// LOCALES I18N
+var i18n =require('i18n');
+i18n.configure({ locals : ['th', 'en'], directory : __dirname + "/locales", queryParameter : 'lang', defaultLocale: 'th' });
+app.use(i18n.init);
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());

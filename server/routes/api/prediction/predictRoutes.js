@@ -3,7 +3,10 @@ var router = express.Router();
 const mysql = require("mysql2");
 
 const conn = mysql.createConnection({
-    host: 'localhost', user: 'root', password: 'anitsara20020712', database: 'prediction', port : 3310
+    host: 'srv1121.hstgr.io', 
+    user: 'u922812831_dustUser', 
+    password: 'DustDetect@01', 
+    database: 'u922812831_DustData_CDTI',
 }); //connect with database
 
 //GET
@@ -16,7 +19,7 @@ router.get('/', (req, res, next) => {
     limit = parseInt(limit);
     let offset = (page-1) * limit; //calculate data 20 data (limit data = 20)
 
-    let sql =limit > 0 ? `SELECT * FROM soiling_prediction WHERE ?  ORDER BY ${sort} ${order} LIMIT ?, ?`:`SELECT * FROM soiling_prediction WHERE ?  ORDER BY ${sort} ${order}`;
+    let sql =limit > 0 ? `SELECT * FROM Predictdata WHERE ?  ORDER BY ${sort} ${order} LIMIT ?, ?`:`SELECT * FROM Predictdata WHERE ?  ORDER BY ${sort} ${order}`;
     console.log(filter);
 
     conn.query(sql,[filter, offset, limit], (err, datas, fields) => { //query data in table soiling
@@ -32,7 +35,7 @@ router.get('/', (req, res, next) => {
 
 //GET BY ID
 router.get('/:id', (req, res, next) => {
-    conn.query('SELECT * FROM soiling_prediction WHERE id = ?', [req.params.id], (err, datas, fields) => { //query data in table soiling
+    conn.query('SELECT * FROM Predictdata WHERE id = ?', [req.params.id], (err, datas, fields) => { //query data in table soiling
         if(datas.length > 0) {
             res.send(datas[0]); //send data to user(call)
         } else {
@@ -43,12 +46,12 @@ router.get('/:id', (req, res, next) => {
 
 //CREATE
 router.post("/", (req, res, next) => {
-    conn.query(" INSERT INTO soiling_prediction SET ?",req.body, (err, datas, feilds) => {
+    conn.query(" INSERT INTO Predictdata SET ?",req.body, (err, datas, feilds) => {
         if(err) {
             const { code, sqlMessage } = err;
-            res.status(400).send({error : {name : code, message : sqlMessage }});
+            res.status(400).send({error : { name : code, message : sqlMessage }});
         } else {
-            res.send({ success : { message : "Inserted Successfully.", result : datas}});
+            res.send({ success : { message : "Inserted Successfully.", result : datas }});
         }
     });
 });

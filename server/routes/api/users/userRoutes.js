@@ -3,6 +3,8 @@ const { body, validationResult } = require('express-validator');
 var router = express.Router();
 var excel = require('exceljs');
 
+const { ERR_DATA_NOT_FOUND } = require('../../../constants');
+
 var { User } = require("../../../models");
 
 // PASSPORT
@@ -50,7 +52,7 @@ router.get('/:id', requireJwt, function (req, res, next) {
     if (data) {
       res.send(data);
     } else {
-      res.status(400).send({ error: { name: "DataNotFound", message: "DataNotFound" } });
+      res.status(400).send({ error: { name: ERR_DATA_NOT_FOUND, message: req.__(ERR_DATA_NOT_FOUND) } });
     }
 
   })
@@ -132,10 +134,10 @@ router.put('/:id', requireJwt,
         console.log(data);
         if (data[0] > 0) {
           User.findByPk(req.params.id).then(data => {
-            res.send({ success: { message: "Updated Successfully.", result: data } });
+            res.send({ success: { message: req.__('success.updated'), result: data } });
           });
         } else {
-          res.status(400).send({ error: { name: "DataNotFound", message: "DataNotFound" } });
+          res.status(400).send({ error: { name: ERR_DATA_NOT_FOUND, message: req.__(ERR_DATA_NOT_FOUND) } });
         }
       }).catch((err) => {
         const { original: { code, sqlMessage } } = err;
@@ -158,10 +160,10 @@ router.patch('/:id', requireJwt,
         console.log(data);
         if (data[0] > 0) {
           User.findByPk(req.params.id).then(data => {
-            res.send({ success: { message: "Updated Successfully.", result: data } });
+            res.send({ success: { message: req.__('success.updated'), result: data } });
           });
         } else {
-          res.status(400).send({ error: { name: "DataNotFound", message: "DataNotFound" } });
+          res.status(400).send({ error: { name: ERR_DATA_NOT_FOUND, message: req.__(ERR_DATA_NOT_FOUND) } });
         }
       }).catch((err) => {
         const { errors: [ValidationErrorItem], original } = err;
@@ -180,10 +182,10 @@ router.delete('/:id', requireJwt, function (req, res, next) {
   User.findByPk(req.params.id).then(data => {
     if (data != null) {
       data.destroy().then(result => {
-        res.send({ success: { message: "Deleted Successfully.", result: data } });
+        res.send({ success: { message: req.__('success.deleted'), result: data } });
       })
     } else {
-      res.status(400).send({ error: { name: "DataNotFound", message: "DataNotFound" } });
+      res.status(400).send({ error: { name: ERR_DATA_NOT_FOUND, message: req.__(ERR_DATA_NOT_FOUND) } });
     }
   })
 });
@@ -214,7 +216,7 @@ router.get('/report/excel', requireJwt, function (req, res, next) {
     let columns = [];
     let paths = ['firstName', 'lastName', 'email', 'password', 'birthDate'];
     paths.forEach(path => {
-      columns.push({ header: path, key: path });
+      columns.push({ header:req.__(`users.${path}`), key: path });
     });
 
     // COLUMNS
@@ -280,7 +282,7 @@ router.get('/report/csv', requireJwt, function (req, res, next) {
     let columns = [];
     let paths = ['firstName', 'lastName', 'email', 'password', 'birthDate'];
     paths.forEach(path => {
-      columns.push({ header: path, key: path });
+      columns.push({ header:req.__(`users.${path}`), key: path });
     });
 
     // COLUMNS

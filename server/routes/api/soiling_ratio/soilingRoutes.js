@@ -2,19 +2,18 @@ var express = require('express');
 var router = express.Router();
 const mysql = require("mysql2");
 
-const conn = mysql.createConnection({
-    host: 'srv1121.hstgr.io', 
-    user: 'u922812831_dustUser', 
-    password: 'DustDetect@01', 
-    database: 'u922812831_DustData_CDTI',
-    
+ const conn = mysql.createConnection({
+     host: 'srv1121.hstgr.io', 
+     user: 'u922812831_dustUser', 
+     password: 'DustDetect@01', 
+     database: 'u922812831_DustData_CDTI',
 }); //connect with database
 
 //GET
 router.get('/', (req, res, next) => {
 
 //FILTER DATA /SET DATA ACS(LESS) TO DESC(MORE)
-    let { page = 1, limit = 20, sort = "id", order = "asc", ...filter } = req.query; 
+    let { page = 1, limit = 20, sort = "Number_ID", order = "desc", ...filter } = req.query; 
     filter = Object.keys(filter).length === 0 ? "1" : filter;
     page = parseInt(page);  //convert String to Int(page&limit)
     limit = parseInt(limit);
